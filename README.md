@@ -45,3 +45,10 @@ A **modern Gemini Clone** built with **Vanilla JavaScript**, featuring a UI and 
 Upload everything to netlify
 and create a environment variable "GOOGLE_API_KEY" with your api key 
 
+### 🌟 Support
+⭐ Star the repository if you like this project
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+[![Hack Club](https://img.shields.io/badge/Hack_Club-%23EC3750.svg?style=flat&logo=Hack-Club&logoColor=white)](https://hackclub.com/) 
+![Netlify](https://img.shields.io/badge/deployed%20on-Netlify-00C7B7) 
+![Google Gemini API](https://img.shields.io/badge/API-Google%20Gemini-orange) 
