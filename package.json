@@ -1,0 +1,9 @@
+{
+  "name": "gemini-clone",
+  "version": "1.0.0",
+  "description": "Netlify Gemini proxy function",
+  "main": "script.js",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
