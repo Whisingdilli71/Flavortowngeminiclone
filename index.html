@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Whising's Gemini Clone</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <h3 class="navbar-logo">Gemini</h3>
+        <button class="navbar-button" id="themeToggler"><i class='bx bx-sun'></i></button>
+    </nav>
+
+    <header class="header">
+        <div class="header-title">
+            <h1>Hello There!</h1>
+            <h2>How can I help you out today?</h2>
+        </div>
+        <div class="sg">
+            <div class="sg-item">
+                <p class="sg-item-text">
+                    How do I get work done on time
+                </p>
+                <div class="sg-item-icon">
+                    <i class='bx bx-stopwatch'></i>
+                </div>
+
+            </div>
+            <div class="sg-item">
+                <p class="sg-item-text">
+                    Help me write a email to my mom
+                </p>
+                <div class="sg-item-icon">
+                    <i class='bx bx-edit-alt'></i>
+                </div>
+            </div>
+
+            <div class="sg-item">
+                <p class="sg-item-text">
+                    Give me directions to the nearest bakery
+                </p>
+                <div class="sg-item-icon">
+                    <i class='bx bx-compass'></i>
+                </div>
+
+            </div>
+            <div class="sg-item">
+                <p class="sg-item-text">
+                    How do I build a pc?
+                </p>
+                <div class="sg-item-icon">
+                    <i class='bx bx-wrench'></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="chats"></section>
+
+    <section class="prompt">
+        <form action="#" class="prompt-form" novalidate>
+            <div class="prompt-input-wrapper">
+                <input type="text" placeholder="Message Gemini" class="prompt-form-input" required>
+                <button class="prompt-form-button" id="sendButton">
+                    <i class='bx bx-send'></i>
+                </button>
+                <button class="prompt-form-button" id="deleteButton">
+                    <i class='bx bx-trash'></i>
+                </button>
+            </div>
+        </form>
+        <p class="disclaimer">
+            Gemini can make mistakes. So please recheck its responses. DO NOT SHARE PERSONAL DATA.
+        </p>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
